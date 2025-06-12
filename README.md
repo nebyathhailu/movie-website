@@ -22,16 +22,6 @@ Movie night is a web application that curates movies using TMDB(The Movie Databa
 - JavaScript
 - [TMDB](#https://www.themoviedb.org/)
 
-## Project Structure
-movie-night/
-├──index.html
-├── css/
-│  └── styles.css
-├── js/
-│  ├── main.js
-│  └── config.js
-└── README.md
-  
 ## Live Preview
 Commin soon...
 
