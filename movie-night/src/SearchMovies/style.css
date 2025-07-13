@@ -1,0 +1,32 @@
+.search-input{
+    border-radius: 30px;
+    display: block;
+    border: #5367bb 1px solid;
+    padding: 0.5rem;
+    width: 800px;
+}
+
+.search-input:focus{
+    outline: #fdcb6e 1px solid;
+    border:none ;
+}
+
+.search-component{
+    align-items: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.watchlist-btn{
+    display: block;
+    font-size: 30px;
+}
+
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-items: center;
+}
