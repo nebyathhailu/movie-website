@@ -1,48 +1,70 @@
-# Movie Night
-Movie night is a web application that curates movies using TMDB(The Movie Database) API. It allows you to search for movies, view posters, ratings, and summaries, add movies to your personal watchlist, and filter by top-rated or upcomming movies.
+# Movie Website 🎬
 
-## Feature
-- Search Movies: Search for movies by title or genre
-- Movie Details: View movies posters, ratings, and summaries
-- Personal Watchlist: Add and manage your favorite movies in a watchlist
-- Filter OPtions: Filter movies by top-rated or upcoming
-- Responsive Design: Works great both desktop and mobile browsers
-  
-## Installation
-1. Clone the repository
+A modern web app to search, discover, and manage your favorite movies using React and The Movie Database (TMDB) API.
+
+## Features
+
+- **Search movies:** Find movies by title or genre.
+- **Movie details:** View posters, ratings, and summaries.
+- **Personal watchlist:** Add and remove movies from your own watchlist.
+- **Filters:** Sort by top-rated, popularity, or upcoming releases.
+- **Responsive design:** Enjoy on desktop or mobile.
+- **Powered by TMDB:** Real-time data from The Movie Database.
+
+## Tech Stack
+
+- **React** (Create React App)
+- **JavaScript (ES6+)**
+- **CSS3**
+- **TMDB API**
+
+## Getting Started
+
+1. **Clone the repository**
    ```bash
-   git clone git@github.com:nebyathhailu/movie-night.git
-   cd movie-night
+   git clone https://github.com/nebyathhailu/movie-website.git
+   cd movie-website/movie-night
    ```
-2. Open index.html in your browser or use local server (e.g. live server in VS code) for navigation.
 
-## Teck Stacks
-- HTML5
-- CSS3
-- JavaScript
-- [TMDB](#https://www.themoviedb.org/)
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Live Preview
-Commin soon...
+3. **Run the app locally**
+   ```bash
+   npm start
+   ```
+   The app will be available at `http://localhost:3000`.
+
+> **Note:** You need an API key from [TMDB](https://www.themoviedb.org/documentation/api) to enable movie data fetching. Set your API key in an `.env` file:
+> ```
+> REACT_APP_TMDB_API_KEY=your_api_key_here
+> ```
+
+## Folder Structure
+
+- `/src` — React components, context, styles, and tests
+- `/public` — Static assets and fonts
 
 ## Contributing
-Want to contribute?
-1. **Fork the repository**
-   Click the "Fork" button at the top right of this page to create your own copy.
-2. **Clone your forked repository**
-   ```bash
-   git clone https://github.com/<your-username>/movie-night.git
-   cd movie-night
-   ```
-3. **Create a new branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. **Commit your changes**
-   ```bash
-   git commit -m "Add your message"
-   ```
-5. **Push to branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
+3. Commit your changes (`git commit -am 'Add awesome feature'`)
+4. Push to the branch (`git push origin feature/my-new-feature`)
+5. Open a Pull Request.
+
+## License
+
+MIT
+
+## Live Demo
+
+Coming soon!
+
+---
+
+_This project is not affiliated with TMDB. Movie data provided by [The Movie Database](https://www.themoviedb.org)._
